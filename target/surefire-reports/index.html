@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">3 suites, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestingMathMethods" class="navigator-link">
+              <span class="suite-name border-passed">TestingMathMethods</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestingMathMethods" class="navigator-link ">
+                    <span>C:\Users\Юзер\VadimsTasck3\suiteByGeometricFigureMethodsTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestingMathMethods" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestingMathMethods" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestingMathMethods" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestingMathMethods" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestingMathMethods" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestingMathMethods" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestingMathMethods" class="hide-methods passed suite-TestingMathMethods"> (hide)</a> <!-- hide-methods passed suite-TestingMathMethods -->
+                      <a href="#" panel-name="suite-TestingMathMethods" class="show-methods passed suite-TestingMathMethods"> (show)</a> <!-- show-methods passed suite-TestingMathMethods -->
+                    </span>
+                    <div class="method-list-content passed suite-TestingMathMethods">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods" title="TestsForInterfaces.GeometricFigureMethodsTests" class="method navigator-link" hash-for-method="perimetrOfSquareMethodTest">perimetrOfSquareMethodTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods" title="TestsForInterfaces.GeometricFigureMethodsTests" class="method navigator-link" hash-for-method="perimetrOfSquareMethodTwoTest">perimetrOfSquareMethodTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods" title="TestsForInterfaces.GeometricFigureMethodsTests" class="method navigator-link" hash-for-method="volumeOfCoubeMethodTest">volumeOfCoubeMethodTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods" title="TestsForInterfaces.GeometricFigureMethodsTests" class="method navigator-link" hash-for-method="volumeOfCoubeMethodTwoTest">volumeOfCoubeMethodTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestingMathMethods -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestingVolumeFiguresMethods" class="navigator-link">
+              <span class="suite-name border-passed">TestingVolumeFiguresMethods</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestingVolumeFiguresMethods" class="navigator-link ">
+                    <span>C:\Users\Юзер\VadimsTasck3\suiteByVolumeFiguresMethodsTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestingVolumeFiguresMethods" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestingVolumeFiguresMethods" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestingVolumeFiguresMethods" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestingVolumeFiguresMethods" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestingVolumeFiguresMethods" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestingVolumeFiguresMethods" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestingVolumeFiguresMethods" class="hide-methods passed suite-TestingVolumeFiguresMethods"> (hide)</a> <!-- hide-methods passed suite-TestingVolumeFiguresMethods -->
+                      <a href="#" panel-name="suite-TestingVolumeFiguresMethods" class="show-methods passed suite-TestingVolumeFiguresMethods"> (show)</a> <!-- show-methods passed suite-TestingVolumeFiguresMethods -->
+                    </span>
+                    <div class="method-list-content passed suite-TestingVolumeFiguresMethods">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingVolumeFiguresMethods" title="TestsForInterfaces.VolumeFiguresMethodsTests" class="method navigator-link" hash-for-method="halfVolumeOfFiguresTests">halfVolumeOfFiguresTests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingVolumeFiguresMethods" title="TestsForInterfaces.VolumeFiguresMethodsTests" class="method navigator-link" hash-for-method="halfVolumeOfFiguresTwoTests">halfVolumeOfFiguresTwoTests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingVolumeFiguresMethods" title="TestsForInterfaces.VolumeFiguresMethodsTests" class="method navigator-link" hash-for-method="volumeOfFiguresTests">volumeOfFiguresTests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingVolumeFiguresMethods" title="TestsForInterfaces.VolumeFiguresMethodsTests" class="method navigator-link" hash-for-method="volumeOfFiguresTwoTests">volumeOfFiguresTwoTests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestingVolumeFiguresMethods -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestingMathMethods__0_" class="navigator-link">
+              <span class="suite-name border-failed">TestingMathMethods (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestingMathMethods__0_" class="navigator-link ">
+                    <span>C:\Users\Юзер\VadimsTasck3\suiteByMathMethodsTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestingMathMethods__0_" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestingMathMethods__0_" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestingMathMethods__0_" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestingMathMethods__0_" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestingMathMethods__0_" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestingMathMethods__0_" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestingMathMethods__0_" class="hide-methods failed suite-TestingMathMethods__0_"> (hide)</a> <!-- hide-methods failed suite-TestingMathMethods__0_ -->
+                      <a href="#" panel-name="suite-TestingMathMethods__0_" class="show-methods failed suite-TestingMathMethods__0_"> (show)</a> <!-- show-methods failed suite-TestingMathMethods__0_ -->
+                    </span>
+                    <div class="method-list-content failed suite-TestingMathMethods__0_">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods__0_" title="TestsForInterfaces.MathMethodsTests" class="method navigator-link" hash-for-method="MinusMethodTest">MinusMethodTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestingMathMethods__0_ -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestingMathMethods__0_" class="hide-methods passed suite-TestingMathMethods__0_"> (hide)</a> <!-- hide-methods passed suite-TestingMathMethods__0_ -->
+                      <a href="#" panel-name="suite-TestingMathMethods__0_" class="show-methods passed suite-TestingMathMethods__0_"> (show)</a> <!-- show-methods passed suite-TestingMathMethods__0_ -->
+                    </span>
+                    <div class="method-list-content passed suite-TestingMathMethods__0_">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods__0_" title="TestsForInterfaces.MathMethodsTests" class="method navigator-link" hash-for-method="divisionMethodTest">divisionMethodTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods__0_" title="TestsForInterfaces.MathMethodsTests" class="method navigator-link" hash-for-method="divisioneMethodTwoTest">divisioneMethodTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods__0_" title="TestsForInterfaces.MathMethodsTests" class="method navigator-link" hash-for-method="minusMethodTwoTest">minusMethodTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods__0_" title="TestsForInterfaces.MathMethodsTests" class="method navigator-link" hash-for-method="multiPlaceMethodTest">multiPlaceMethodTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods__0_" title="TestsForInterfaces.MathMethodsTests" class="method navigator-link" hash-for-method="multiplaceMethodTwoTest">multiplaceMethodTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods__0_" title="TestsForInterfaces.MathMethodsTests" class="method navigator-link" hash-for-method="summMethodTest">summMethodTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestingMathMethods__0_" title="TestsForInterfaces.MathMethodsTests" class="method navigator-link" hash-for-method="summMethodTwoTest">summMethodTwoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestingMathMethods__0_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestingMathMethods" class="panel TestingMathMethods">
+          <div class="suite-TestingMathMethods-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestsForInterfaces.GeometricFigureMethodsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="perimetrOfSquareMethodTest">
+                  </a> <!-- perimetrOfSquareMethodTest -->
+                  <span class="method-name">perimetrOfSquareMethodTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="perimetrOfSquareMethodTwoTest">
+                  </a> <!-- perimetrOfSquareMethodTwoTest -->
+                  <span class="method-name">perimetrOfSquareMethodTwoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="volumeOfCoubeMethodTest">
+                  </a> <!-- volumeOfCoubeMethodTest -->
+                  <span class="method-name">volumeOfCoubeMethodTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="volumeOfCoubeMethodTwoTest">
+                  </a> <!-- volumeOfCoubeMethodTwoTest -->
+                  <span class="method-name">volumeOfCoubeMethodTwoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingMathMethods-class-passed -->
+        </div> <!-- panel TestingMathMethods -->
+        <div panel-name="suite-TestingVolumeFiguresMethods" class="panel TestingVolumeFiguresMethods">
+          <div class="suite-TestingVolumeFiguresMethods-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestsForInterfaces.VolumeFiguresMethodsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="halfVolumeOfFiguresTests">
+                  </a> <!-- halfVolumeOfFiguresTests -->
+                  <span class="method-name">halfVolumeOfFiguresTests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="halfVolumeOfFiguresTwoTests">
+                  </a> <!-- halfVolumeOfFiguresTwoTests -->
+                  <span class="method-name">halfVolumeOfFiguresTwoTests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="volumeOfFiguresTests">
+                  </a> <!-- volumeOfFiguresTests -->
+                  <span class="method-name">volumeOfFiguresTests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="volumeOfFiguresTwoTests">
+                  </a> <!-- volumeOfFiguresTwoTests -->
+                  <span class="method-name">volumeOfFiguresTwoTests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingVolumeFiguresMethods-class-passed -->
+        </div> <!-- panel TestingVolumeFiguresMethods -->
+        <div panel-name="suite-TestingMathMethods__0_" class="panel TestingMathMethods__0_">
+          <div class="suite-TestingMathMethods__0_-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestsForInterfaces.MathMethodsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MinusMethodTest">
+                  </a> <!-- MinusMethodTest -->
+                  <span class="method-name">MinusMethodTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [5] but found [15]
+	at TestsForInterfaces.MathMethodsTests.MinusMethodTest(MathMethodsTests.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingMathMethods__0_-class-failed -->
+          <div class="suite-TestingMathMethods__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestsForInterfaces.MathMethodsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divisionMethodTest">
+                  </a> <!-- divisionMethodTest -->
+                  <span class="method-name">divisionMethodTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divisioneMethodTwoTest">
+                  </a> <!-- divisioneMethodTwoTest -->
+                  <span class="method-name">divisioneMethodTwoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="minusMethodTwoTest">
+                  </a> <!-- minusMethodTwoTest -->
+                  <span class="method-name">minusMethodTwoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiPlaceMethodTest">
+                  </a> <!-- multiPlaceMethodTest -->
+                  <span class="method-name">multiPlaceMethodTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiplaceMethodTwoTest">
+                  </a> <!-- multiplaceMethodTwoTest -->
+                  <span class="method-name">multiplaceMethodTwoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="summMethodTest">
+                  </a> <!-- summMethodTest -->
+                  <span class="method-name">summMethodTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="summMethodTwoTest">
+                  </a> <!-- summMethodTwoTest -->
+                  <span class="method-name">summMethodTwoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestingMathMethods__0_-class-passed -->
+        </div> <!-- panel TestingMathMethods__0_ -->
+        <div panel-name="test-xml-TestingMathMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Юзер\VadimsTasck3\suiteByGeometricFigureMethodsTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestingMathMethods&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestsForInterfaces.GeometricFigureMethodsTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression --&gt;
+&lt;/suite&gt; &lt;!-- TestingMathMethods --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-TestingVolumeFiguresMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Юзер\VadimsTasck3\suiteByVolumeFiguresMethodsTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestingVolumeFiguresMethods&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestsForInterfaces.VolumeFiguresMethodsTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression --&gt;
+&lt;/suite&gt; &lt;!-- TestingVolumeFiguresMethods --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-TestingMathMethods__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Юзер\VadimsTasck3\suiteByMathMethodsTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestingMathMethods (0)&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestsForInterfaces.MathMethodsTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression --&gt;
+&lt;/suite&gt; &lt;!-- TestingMathMethods (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestingMathMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestingMathMethods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestingVolumeFiguresMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestingVolumeFiguresMethods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestingMathMethods__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestingMathMethods (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestingMathMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestingMathMethods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestingVolumeFiguresMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestingVolumeFiguresMethods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestingMathMethods__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestingMathMethods (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestingMathMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestingMathMethods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestingMathMethods');
+function tableData_TestingMathMethods() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'perimetrOfSquareMethodTest')
+data.setCell(0, 2, 'TestsForInterfaces.GeometricFigureMethodsTests')
+data.setCell(0, 3, 8);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'perimetrOfSquareMethodTwoTest')
+data.setCell(1, 2, 'TestsForInterfaces.GeometricFigureMethodsTests')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'volumeOfCoubeMethodTwoTest')
+data.setCell(2, 2, 'TestsForInterfaces.GeometricFigureMethodsTests')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'volumeOfCoubeMethodTest')
+data.setCell(3, 2, 'TestsForInterfaces.GeometricFigureMethodsTests')
+data.setCell(3, 3, 0);
+window.suiteTableData['TestingMathMethods']= { tableData: data, tableDiv: 'times-div-TestingMathMethods'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 ms</span>
+              <div id="times-div-TestingMathMethods">
+              </div> <!-- times-div-TestingMathMethods -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestingVolumeFiguresMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestingVolumeFiguresMethods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestingVolumeFiguresMethods');
+function tableData_TestingVolumeFiguresMethods() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'halfVolumeOfFiguresTests')
+data.setCell(0, 2, 'TestsForInterfaces.VolumeFiguresMethodsTests')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'volumeOfFiguresTests')
+data.setCell(1, 2, 'TestsForInterfaces.VolumeFiguresMethodsTests')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'volumeOfFiguresTwoTests')
+data.setCell(2, 2, 'TestsForInterfaces.VolumeFiguresMethodsTests')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'halfVolumeOfFiguresTwoTests')
+data.setCell(3, 2, 'TestsForInterfaces.VolumeFiguresMethodsTests')
+data.setCell(3, 3, 0);
+window.suiteTableData['TestingVolumeFiguresMethods']= { tableData: data, tableDiv: 'times-div-TestingVolumeFiguresMethods'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-TestingVolumeFiguresMethods">
+              </div> <!-- times-div-TestingVolumeFiguresMethods -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestingMathMethods__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestingMathMethods (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestingMathMethods__0_');
+function tableData_TestingMathMethods__0_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'MinusMethodTest')
+data.setCell(0, 2, 'TestsForInterfaces.MathMethodsTests')
+data.setCell(0, 3, 5);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'multiPlaceMethodTest')
+data.setCell(1, 2, 'TestsForInterfaces.MathMethodsTests')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'divisionMethodTest')
+data.setCell(2, 2, 'TestsForInterfaces.MathMethodsTests')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'multiplaceMethodTwoTest')
+data.setCell(3, 2, 'TestsForInterfaces.MathMethodsTests')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'divisioneMethodTwoTest')
+data.setCell(4, 2, 'TestsForInterfaces.MathMethodsTests')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'minusMethodTwoTest')
+data.setCell(5, 2, 'TestsForInterfaces.MathMethodsTests')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'summMethodTest')
+data.setCell(6, 2, 'TestsForInterfaces.MathMethodsTests')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'summMethodTwoTest')
+data.setCell(7, 2, 'TestsForInterfaces.MathMethodsTests')
+data.setCell(7, 3, 0);
+window.suiteTableData['TestingMathMethods__0_']= { tableData: data, tableDiv: 'times-div-TestingMathMethods__0_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 ms</span>
+              <div id="times-div-TestingMathMethods__0_">
+              </div> <!-- times-div-TestingMathMethods__0_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestingMathMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestingMathMethods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestingVolumeFiguresMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestingVolumeFiguresMethods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestingMathMethods__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestingMathMethods (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestingMathMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestingVolumeFiguresMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestingMathMethods__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestingMathMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsForInterfaces.GeometricFigureMethodsTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">perimetrOfSquareMethodTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">perimetrOfSquareMethodTwoTest</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">volumeOfCoubeMethodTest</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">volumeOfCoubeMethodTwoTest</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestingVolumeFiguresMethods" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsForInterfaces.VolumeFiguresMethodsTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">halfVolumeOfFiguresTests</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">halfVolumeOfFiguresTwoTests</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">volumeOfFiguresTests</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">volumeOfFiguresTwoTests</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestingMathMethods__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestsForInterfaces.MathMethodsTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MinusMethodTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divisionMethodTest</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divisioneMethodTwoTest</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiPlaceMethodTest</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">minusMethodTwoTest</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiplaceMethodTwoTest</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">summMethodTest</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">summMethodTwoTest</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
